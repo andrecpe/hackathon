@@ -1,0 +1,15 @@
+# curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -d '{
+#    "valorDesejado": 900.00,
+#    "prazo": 5
+#}' http://localhost:8000
+POST http://localhost:8000/api
+Accept: application/json
+Content-Type: application/json
+
+{
+    "valorDesejado": 900.00,
+    "prazo": 5
+}
+
+###
+
